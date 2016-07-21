@@ -5,14 +5,22 @@
 1. Practice using Basscss for page layout
 2. Practice styling elements with CSS
 
-## Outline
+## Faking a Twitter feed
+Now that we're familiar with Basscss, it's time to kick things up a notch and use it to fake a Twitter feed. Don't
+worry, we're still keeping things relatively basic. Here's what your end result should look like:
 
-The thinking here is that we can simulate a testing flow using http://stylelint.io/ -- I'll need to work on getting the results in the right format, but hpefully it won't be too bad.
+![End result](http://i.imgur.com/kzZugpV.png)
 
-So we won't be checking students' solutions for correctness; rather, we'll be making sure that they sanely solve the task at hand.
+A couple of pointers:
 
-This should test their layout capabilities for the most part -- we could, e.g,. guide them towards building a simple landing page (hero unit, etc.) with a sign-up form. Mostly I want to make sure that they have a good grasp of how to lay things out on the page using Basscss. The assumption is that they can look up how to make things pretty on their own.
+- The feed is contained in a `div` that is 600px wide, and centered horizontally. **Do this using Flexbox for
+practice!** Note that it also has some top margin to make the feed not stick to the page.
+- Feel free to use any content you want
+- All tweets have a bottom line to separate them a little, apart from the last tweet.
+- Keep an eye on the whitespace: between the image and the text on the right, between the tweet and the separator, ...
+- Lastly, add a custom class called `muted` (you can do this in the `<head>` of the HTML using the `<style>` tag). This
+class gives text a font color of `#999`. Apply this to the Twitter handle and date timestamp as shown in the screenshot.
+
 
 ## Resources
-
 - [Basscss](http://www.basscss.com)
